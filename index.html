@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<title>Registrasi Siswa :: Arofah</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Student Registration Form Responsive-Arofah"
+	/>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet" type='text/css' media="all" />
+	<link href="css/style.css" rel="stylesheet" type='text/css' media="all" />
+</head>
+
+<body>
+
+	<div class="content-agileits">
+		<h1 class="title">Form registrasi siswa</h1>
+		<div class="left">
+			<form action="#" method="post" data-toggle="validator">
+				<div class="form-group">
+					<label for="firstname" class="control-label">Nama Depan:</label>
+					<input type="text" class="form-control" id="firstname" placeholder="Nama Depan" data-error="Masukan Nama Depan Anda" required>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="form-group">
+					<label for="lastname" class="control-label">Nama Belakang:</label>
+					<input type="text" class="form-control" id="lastname" placeholder="Nama Belakang" data-error="Masukan Nama Belakang Anda" required>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="form-group">
+					<label for="inputEmail" class="control-label">Email:</label>
+					<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Email tidak valid" required>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="form-group">
+					<label for="Phone" class="control-label">Telepon:</label>
+					<input type="text" class="form-control" id="Phone" placeholder="Telepon" data-error="Masukan Nomor telepon" required>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="form-group">
+					<label for="inputPassword" class="control-label">Password:</label>
+					<div class="form-inline row">
+						<div class="form-group col-sm-6 agileits-w3layouts">
+							<input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required>
+							<div class="help-block">Minimum of 6 karakter</div>
+						</div>
+						<div class="form-group col-sm-6 w3-agile">
+							<input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match"
+							    placeholder="Konfirmasi Password" required>
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+				<div class="form-group w3ls-opt">
+					<label for="Phone" class="control-label">Jenis Kelamin</label>
+
+					<label class="w3layouts">
+						<input type="radio" name="work" id="hire" value="male" checked>Pria
+					</label>
+					<label class="w3layouts label2">
+						<input type="radio" name="work" id="work" value="female">Wanita
+					</label>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-lg">submit</button>
+				</div>
+			</form>
+		</div>
+		<div class="right"></div>
+		<div class="clear"></div>
+	</div>
+	<p class="copyright-w3ls">© 2020 Form Registrasi Siswa. All Rights Reserved | Design by
+		<a href="https://w3layouts.com/" target="_blank">Arofah Winda</a>
+	</p>
+	<script src="js/jquery-2.1.4.min.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/validator.min.js"></script>
+</body>
+
+</html>
